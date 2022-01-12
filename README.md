@@ -115,7 +115,7 @@ These videos demonstrate the presets in some early A Realm Reborn scenes (to avo
 12. Set the **"Full Screen Mode Gamma Correction"** to **"50"** (the default). Otherwise the game will be affecting the preset brightness which will break the balance between shadows and light.
 13. Set the **"Character Lighting"** to **"20".** This subtly increases the brightness of characters in dark rooms, making them easier to see, while still remaining natural. All of my presets have been created with this setting in mind. Don't go higher than 20 though, since you'll risk "washed out" characters in daylight if you do that.
 14. After you're done configuring the game, it's time to install these presets.
-15. [Download the latest version of my presets](https://github.com/Bananaman/Smashface-Shaders/archive/refs/heads/master.zip).
+15. [Download the latest version of my presets](https://github.com/Bananaman/Smashface-Shaders/releases/download/v2022.01.12/Smashface-Shaders-2022.01.12.zip).
 16. Extract the **"Smashface Goodstrong"** folder into your Final Fantasy XIV folder's `game\gshade-presets` folder. (By default, it's at `C:\Program Files (x86)\SquareEnix\FINAL FANTASY XIV - A Realm Reborn\game\gshade-presets`.)
 17. Press **F2** ingame to open the GShade interface. I suggest reading the initial tutorial if you're new to ReShade/GShade.
 18. If the GShade font size is too small for you, go into the "Settings" tab of GShade, and increase the "font size" values.
