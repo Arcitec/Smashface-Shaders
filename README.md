@@ -21,6 +21,7 @@ For a demonstration of what the presets look like in action, **check out the "[V
 - [Preset Descriptions](#preset-descriptions)
   - [Faithful Realism v2](#faithful-realism-v2)
   - [Animu Desu v2](#animu-desu-v2)
+  - [WonderFX Presets](#wonderfx-presets)
 - [Preset Video Demos in 4K@60](#preset-video-demos-in-4k60)
   - [Wrath of the Titan](#wrath-of-the-titan)
   - [The Ul'dahn Envoy, Scene 3](#the-uldahn-envoy-scene-3)
@@ -58,6 +59,15 @@ This preset is finetuned for the optimal amount of Animu for all lightning condi
 Everything has been finetuned to avoid the very common "line-drawing overload/dark lines everywhere/excessive darkening" effect, to instead give you something that looks more intentional and graceful than typical celshaders.
 
 A lot of people are fans of this preset, and after playing with this "anime" style for a while, you may find it hard to use any other presets.
+
+
+### WonderFX Presets
+
+These bonus presets provide heavily stylized effects. They are made for fun and for screenshots! You might also be able to use them for gameplay if you have a powerful graphics card, but that isn't their primary purpose.
+
+Current list of WonderFX Presets:
+
+- Wild West: Gives the world an old-timey look and feel.
 
 
 ## Preset Video Demos in 4K@60
@@ -115,7 +125,7 @@ These videos demonstrate the presets in some early A Realm Reborn scenes (to avo
 12. Set the **"Full Screen Mode Gamma Correction"** to **"50"** (the default). Otherwise the game will be affecting the preset brightness which will break the balance between shadows and light.
 13. Set the **"Character Lighting"** to **"20".** This subtly increases the brightness of characters in dark rooms, making them easier to see, while still remaining natural. All of my presets have been created with this setting in mind. Don't go higher than 20 though, since you'll risk "washed out" characters in daylight if you do that.
 14. After you're done configuring the game, it's time to install these presets.
-15. [Download the latest version of my presets](https://github.com/Bananaman/Smashface-Shaders/releases/download/v2022.01.12/Smashface-Shaders-2022.01.12.zip).
+15. [Download the latest version of my presets](https://github.com/Bananaman/Smashface-Shaders/releases/download/v2022.01.12-2/Smashface-Shaders-2022.01.12-2.zip).
 16. Extract the **"Smashface Goodstrong"** folder into your Final Fantasy XIV folder's `game\gshade-presets` folder. (By default, it's at `C:\Program Files (x86)\SquareEnix\FINAL FANTASY XIV - A Realm Reborn\game\gshade-presets`.)
 17. Press **F2** ingame to open the GShade interface. I suggest reading the initial tutorial if you're new to ReShade/GShade.
 18. If the GShade font size is too small for you, go into the "Settings" tab of GShade, and increase the "font size" values.
