@@ -118,23 +118,27 @@ These videos demonstrate the presets in some early A Realm Reborn scenes (to avo
 5. Switch to the "Graphics Settings" tab.
 6. Set **"General: Edge Smoothing (Anti-Aliasing)"** to **"FXAA".**
 7. Set **"General: Transparent Lighting Quality"** to **"High".**
-8. Disable the **"Effects: Naturally darken the edges of the screen (Limb Darkening)"** checkbox.
-9. Set **"Effects: Water Refraction"** to **"Off".**
+8. Disable the **"Effects: Naturally darken the edges of the screen (Limb Darkening)"** checkbox. Otherwise you'll get double vignetting effects around the screen.
+9. Set **"Effects: Water Refraction"** to **"Off".** Otherwise you'll get terrible graphics underwater.
 10. Disable the **"Cinematic Cutscenes: Depth of Field"** checkbox. Otherwise you'll get smeared/blurry graphics. My presets actually take care of re-adding much better looking depth of field, so don't worry.
 11. Switch to the "Display Settings" tab.
 12. Set the **"Full Screen Mode Gamma Correction"** to **"50"** (the default). Otherwise the game will be affecting the preset brightness which will break the balance between shadows and light.
 13. Set the **"Character Lighting"** to **"20".** This subtly increases the brightness of characters in dark rooms, making them easier to see, while still remaining natural. All of my presets have been created with this setting in mind. Don't go higher than 20 though, since you'll risk "washed out" characters in daylight if you do that.
-14. After you're done configuring the game, it's time to install these presets.
-15. [Download the latest version of my presets](https://github.com/Bananaman/Smashface-Shaders/releases/download/v2022.01.12-2/Smashface-Shaders-2022.01.12-2.zip).
-16. Extract the **"Smashface Goodstrong"** folder into your Final Fantasy XIV folder's `game\gshade-presets` folder. (By default, it's at `C:\Program Files (x86)\SquareEnix\FINAL FANTASY XIV - A Realm Reborn\game\gshade-presets`.)
-17. Press **F2** ingame to open the GShade interface. I suggest reading the initial tutorial if you're new to ReShade/GShade.
-18. If the GShade font size is too small for you, go into the "Settings" tab of GShade, and increase the "font size" values.
-19. On the "Home" tab of GShade, you will have a preset navigator.
-20. At the top of the GUI, there's a folder navigation bar. You can either click the "..." to directly select the "Smashface Goodstrong" preset folder, or you can use the main bar to navigate to it.
-21. Select your desired preset from the list of files.
-22. To improve your game performance, see the "Performance Tuning" section of this guide. Even people with powerful computers should do the first step of those instructions.
-23. If you want an easy way to toggle the presets on/off to see the difference, you can go into the "Settings" tab of GShade and set up a "Shader Toggle Key" binding.
-24. I hope you enjoy my presets and have lots of fun in Eorzea! :-)
+14. Close the game's settings window.
+15. Type `/gpose` in the game chat to open the "Group Pose" GUI.
+16. Switch to the "General Settings" tab of the "Group Pose Settings".
+17. Disable the **"Depth of Field"** checkbox, to turn off the game's own effect. Otherwise you'll get weird shadows in the Group Pose photos, due to the extra Depth of Field in the GShade presets.
+18. After you're done configuring the game, it's time to install these presets.
+19. [Download the latest version of my presets](https://github.com/Bananaman/Smashface-Shaders/releases/download/v2022.01.12-2/Smashface-Shaders-2022.01.12-2.zip).
+20. Extract the **"Smashface Goodstrong"** folder into your Final Fantasy XIV folder's `game\gshade-presets` folder. (By default, it's at `C:\Program Files (x86)\SquareEnix\FINAL FANTASY XIV - A Realm Reborn\game\gshade-presets`.)
+21. Press **Shift + F2** ingame to open the GShade interface. I suggest reading the initial tutorial if you're new to ReShade/GShade.
+22. If the GShade font size is too small for you, go into the "Settings" tab of GShade, and increase the "font size" values.
+23. On the "Home" tab of GShade, you will have a preset navigator.
+24. At the top of the GUI, there's a folder navigation bar. You can either click the "..." to directly select the "Smashface Goodstrong" preset folder, or you can use the main bar to navigate to it.
+25. Select your desired preset from the list of files.
+26. To improve your game performance, see the "Performance Tuning" section of this guide. Even people with powerful computers should do the first step of those instructions.
+27. If you want an easy way to toggle the presets on/off to see the difference, you can go into the "Settings" tab of GShade and set up a "Shader Toggle Key" binding.
+28. I hope you enjoy my presets and have lots of fun in Eorzea! :-)
 
 
 ## Performance Tuning
